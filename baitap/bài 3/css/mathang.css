@@ -1,0 +1,27 @@
+h1{
+    color: rgb(16, 161, 161);
+    margin-left: 130px;
+}
+table{
+    border: 1px solid black;
+    border-spacing: 0;
+    width: 800px;
+}
+td{
+    border: 1px solid black;
+}
+div{
+    position: absolute;
+    left: 600px;
+    top: 5px;
+}
+.mathang{
+    width: 170px;
+}
+.donggia{
+    width: 138px;
+    text-align: right;
+}
+.mota{
+    padding: 5px;
+}

@@ -1,0 +1,12 @@
+table{
+    border: 1px solid black;
+    border-spacing:0 ;
+    width: 500px;
+}
+td{
+    border: 1px solid black;
+}
+img{
+    width: 100px;
+    padding: 15px 20px 15px 64px;
+}

@@ -1,0 +1,77 @@
+.dangky{
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(152, 24, 24);
+    margin: 0px 0px 5px 0px;
+    font-size: 24px;
+}
+h2{
+    color: white;
+    background-color: rgb(152, 24, 24);
+    margin: 0px 0px 30px -7px;
+    padding: 5px 5px 5px 15px;
+    font-size: 18px;
+}
+.hang{
+    display: flex;
+    width: 1300px;
+    margin-bottom: 10px;
+}
+.hang .thongtin{
+    flex: 15;
+}
+.hang .nhap{
+    flex: 85;
+}
+.hang .thongtin p{
+    margin-top: 0px;
+}
+span{
+    color: red;
+}
+
+.hang .thongtin{
+    margin: 0px;
+}
+.fontchu{
+    margin-top: 3px; 
+    font-size: 12px; 
+    font-style: italic;
+}
+.sub{
+    text-align: center;
+}
+input[type="submit" i]{
+    background-color: rgb(152, 24, 24);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.chinh{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid rgb(203, 196, 191);
+    width: 288px;
+}
+.bd{
+    border-left: 1px solid rgb(203, 196, 191);
+    padding-left: 7px;
+}
+input[type="text"]{
+    background-color: rgb(249, 243, 243);
+    border-right-style: none;
+    border-left-style:none ;
+    border-top-style:none ;
+    border-bottom-color:rgb(209, 201, 201) ;
+}
+select{
+    background-color: rgb(249, 243, 243);
+    border-right-style: none;
+    border-left-style:none ;
+    border-top-style:none ;
+    border-bottom-color:rgb(209, 201, 201) ;
+}

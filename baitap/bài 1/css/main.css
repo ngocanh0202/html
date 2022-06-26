@@ -1,0 +1,191 @@
+.contaner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    background-color: #d9291d;
+    display: flex;
+    justify-content: space-between;
+}
+.banner img{
+    padding: 5px;
+    padding-left: 60px;
+}
+.banner .danhsachbaner{
+    list-style: none;
+    margin-right: 60px;
+    padding: 0px;
+}
+.banner li{
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 10px;
+    height: 48px;
+}
+.banner .danhsachbaner li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+}
+.link{
+    background-color: #cfc8bf;
+    padding: 15px;
+    padding-left: 30px;
+}
+.link li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.link li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.noidung{
+    margin-top: 25px;
+    display: flex;
+}
+.noidung .ctleft{
+    flex: 20;
+    padding-left: 35px;
+}
+.noidung .ctleft .ccl{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 5px;
+}
+.noidung .ctleft .ccl1{
+    margin-left: 10px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 5px;
+}
+.noidung .ctleft div a{
+    text-decoration: none;
+    color: black;
+}
+.noidung .ctleft a:hover{
+    color: red;
+}
+.noidung .ctleft img{
+    margin-top: 30px;
+}
+.noidung .cright{
+    flex: 80;
+    margin-left: 25px;
+}
+.noidung .cright .chude{
+    display: flex;
+}
+.noidung .cright .line{
+    background-color: black;
+    width: 447px;
+    height: 3px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.noidung .cright .chude .chudec{
+    color: black;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.noidung .cright .crightimg{
+    margin: 28px 0px;
+}
+.noidung .cright .noidungcright{
+    display: flex;
+}
+.noidung .cright .noidungcright .left{
+    flex: 40;
+}
+.noidung .cright .noidungcright .right{
+    flex: 60;
+}
+.noidung .cright .noidungcright .left .left1 .textl a:hover{
+    color: red;
+}
+.noidung .cright .noidungcright .left .left1 .text2 a:hover{
+    color: red;
+}
+.noidung .cright .noidungcright .left .left1{
+    display: flex;
+    border-bottom: 1px dashed rgb(177, 171, 171);
+    width: 530px;;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.noidung .cright .noidungcright .left .left1 .textl{
+    margin-left: 10px;
+    margin-top: -30px;
+    /* width: 280px; */
+}
+.noidung .cright .noidungcright .left .left1 .textl a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+.noidung .cright .noidungcright .left .left1 .textl p{
+    margin-top: -22px;
+}
+.noidung .cright .noidungcright .left .left1 .text2{
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.noidung .cright .noidungcright .left .left1 .text2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+.noidung .cright .noidungcright .left .left1 .text2 p{
+    margin-top: -22px;
+}
+.noidung .cright .noidungcright .right .khoiright{
+    margin-left: 20px;
+}
+.noidung .cright .noidungcright .right .khoiright h1{
+    color: white;
+    font-size: 14px;
+    background: red;
+    margin-top: 0px;
+    padding: 7px;
+    width: 165px;
+    padding-left: 26px;
+}
+.noidung .cright .noidungcright .right .khoiright .noidungright{
+    display: flex;
+    border-bottom: 1px solid rgb(171, 164, 164);
+    width: 195px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+.noidung .cright .noidungcright .right .khoiright .noidungright .textright{
+    width: 115px;
+    margin-left: 5px;
+}
+.noidung .cright .noidungcright .right .khoiright .noidungright .textright p{
+    margin-top: 0px;
+    font-size: 12px;
+    width: 86px;
+}
+.noidung .cright .noidungcright .right .khoiright .noidungright a{
+    color: black;
+    text-decoration: none;
+}
+.noidung .cright .noidungcright .right .khoiright .noidungright a:hover{
+    color: red;
+}
+.contaner .END{
+    background-color: #cfc8bf;
+    padding: 10px;
+}
+.contaner .END p{
+    text-align: center;
+}
+.contaner .END p span{
+    color: #d9291d;
+}

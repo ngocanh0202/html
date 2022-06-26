@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký xét tuyển</title>
+    <link rel="stylesheet" href="css/dk.css">
+</head>
+<body>
+    <div class="dangky">
+        <h1>ĐĂNG KÝ XÉT TUYỂN</h1>
+        <div class="bd">
+            <h2>THÔNG TIN HỒ SƠ</h2>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Họ và tên(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <input type="text" name="ho" id="ho" placeholder="họ" size="10">
+                    <input type="text" name="tenlot" id="tenlot" placeholder="tên lót">
+                    <input type="text" name="ten" id="ten" placeholder="tên" size="10">
+                    <input type="radio" name="gioitinh" id="nam" value="nam" checked>nam
+                    <input type="radio" name="gioitinh" id="nu" value="nu">nữ
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>ngày sinh(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <input type="text" name="date" id="date">
+                    <label for="sdt" style="margin-left: 30px ;">Số điện thoại (<span>*</span>)</label>
+                    <input type="text" name="sdt" id="sdt" style="margin-left: 25px ;">
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Email(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <input type="text" name="email" id="email" size="71">
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Facebook(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <input type="text" name="fb" id="fb" size="71">
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Địa chỉ liên lạc(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <input type="text" name="diachilienlac" id="diachilienlac" placeholder="Địa chỉ nhập giấy báo trúng tuyển" size="71">
+                    <p class="fontchu">(Nhập số nhà, tên đường, thôn/tổ,phường/xã,quận/huyện,tỉnh/thành)</p>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Tỉnh thành(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <select name="tinhthanh" id="tinhthanh" aria-placeholder="chọn tỉnh thành" style="width:170px">
+                        <option value="" disabled selected hidden>Chọn tỉnh thành</option>
+                        <option value="qn">Quảng Nam</option>
+                        <option value="qng">Quảng Ngãi</option>
+                        <option value="na">Nghệ An</option>
+                    </select>
+                    <label for="Trường" style="padding-left:20px ; padding-right: 20px;">Trường THPT</label>
+                    <select name="truong" id="truong" style="width:201px">
+                        <option value="" disabled selected hidden>Chọn trường THPT</option>
+                        <option value="tl">Trường THPT Tiểu La</option>
+                        <option value="nh">Trường THPT Nguyễn Hiền</option>
+                        <option value="tk">Trường THPT Thanh Khê</option>
+                    </select>
+                    <p class="fontchu" style="margin-top:10px ;">(Ghi chú: Nếu là học sinh tự do thì bạn chọn trường đã tốt nghiệp trước đó</p>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Ngành đăng ký(<span>*</span>)</p>
+                </div>
+                <div class="nhap">
+                    <select name="ndk" id="ndk" style="width:510px">
+                        <option value="" disabled selected hidden>Chọn ngành</option>
+                        <option value="cnpm">Công nghệ phần mềm</option>
+                        <option value="ct">Công nghệ chế tạo máy</option>
+                        <option value="tkdh">Thiết kế đồ họa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Tệp đính kèm(<span>*</span>)</p>
+                </div>
+                <div class="nhap" style="padding-left: 60px;">
+                    <input type="file">
+                    <p style="color: red; margin-top: 1px;margin-left: 14px;font-size: 14px;font-weight: bold;margin-bottom: 0px;">Thêm file</p>
+                    <p class="fontchu">(File có phần mở rộng là: .GIF, .JPG, .PNG, .RAR, .ZIP!)</p>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="thongtin">
+                    <p>Mã bảo vệ(<span>*</span>)</p>
+                </div>
+                <div class="nhap" style="padding-left: 60px;">
+                    <div class="chinh">
+                        <input type="text" size="7" style="line-height: 30px; position: relative;bottom: 20px;">
+                        <img src="img/a.png" alt="" >
+                    </div>
+                
+                    <div class="chinh"><p class="fontchu" style="margin-bottom:0px">Nhập đúng các kí tự ở hình bên phải vào ô bên trái</p></div>
+                    <div class="chinh"><p class="fontchu" style="margin-bottom:0px">(<span>*</span>): là những trường hợp bắt buộc</p></div>
+                </div>
+            </div>
+            <div class="sub">
+                <input type="submit" value="ĐĂNG KÝ XÉT TUYỂN">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
